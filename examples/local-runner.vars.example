@@ -1,0 +1,7 @@
+# Copy to .dev.vars for local development, then replace this example token.
+# The platform and Runner read the same token; never include .dev.vars in source archives.
+PIPELINE_LOCAL_RUNNER_ORIGIN=http://127.0.0.1:8789
+PIPELINE_RUNNER_TOKEN=replace-this-with-your-local-secret
+# Optional: override the default project-local .pipeline workspace.
+# PIPELINE_WORKSPACE_ROOT=/absolute/path/to/pipeline-data
+# Registered modules default to <workspace>/functions/modules.json.
